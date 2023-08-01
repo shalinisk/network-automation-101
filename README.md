@@ -1,2 +1,3 @@
-# Net_Automation
+# network-automation-101
+
 Automating basic network tasks

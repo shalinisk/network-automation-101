@@ -1,0 +1,25 @@
+# Pip requirements
+
+# Starting with Python 3.9, ansible 4 is needed.
+ansible>=5.0.1; python_version == '3.10'
+ansible>=7.0.0; python_version >= '3.11'
+
+ansible-core>=2.12.10; python_version == '3.10'
+ansible-core>=2.14.2; python_version >= '3.11'
+
+requests>=2.31.0
+
+Jinja2>=3.0.0; python_version >= '3.10' 
+
+# MarkupSafe is used by Jinja2
+# Jinja2 3.0 requires MarkupSafe>=2.0
+MarkupSafe>=2.0.0; python_version >= '3.9'   # ansible >= 6
+
+cryptography>=41.0.2; python_version >= '3.7'
+
+PyYAML>=5.3.1,!=5.4.0,!=5.4.1; python_version >= '3.6' and python_version <= '3.11'
+PyYAML>=5.3.1,!=5.4.0,!=5.4.1,!=6.0.0; python_version >= '3.12'
+
+python-dateutil>=2.8.2
+jsonschema>=3.0.1,!=4.0.0,!=4.18.1
+urllib3>=1.26.5
